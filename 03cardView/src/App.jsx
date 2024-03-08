@@ -9,11 +9,14 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl bg-green-500 p-3 rounded-md">
+      <h1 className="text-6xl bg-green-500 p-3 rounded-md">
         Vite With TailWind
       </h1>
+      <br></br>
 
-      <Card />
+      <h1 className="text-3xl text-yellow-400 p-2 rounded-md">Testing</h1>
+
+      <Card username="Hitesh" post="Software Engineer"/>
 
       
     </>
